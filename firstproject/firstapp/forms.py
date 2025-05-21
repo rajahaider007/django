@@ -2,7 +2,7 @@ from django import forms
 from .models import Reservation
 
 
-class ResReservationForm(forms.ModelForm):
+class ReservationForm(forms.ModelForm):
     class Meta:
         model = Reservation
         fields = "__all__"
